@@ -1,7 +1,8 @@
 
 
 import 'package:flutter/material.dart';
-import 'package:flutter_projects/screens/dashboard.dart';
+import 'screens/container.dart';
+import 'screens/dashboard.dart';
 
 main() {
   runApp(const MyApp());
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       darkTheme: ThemeData(primarySwatch: Colors.blueGrey),
       color: Colors.orange,
       debugShowCheckedModeBanner: false,
-      home: Dashboard(),
+      home: MyContainer(),
     );
   }
 
